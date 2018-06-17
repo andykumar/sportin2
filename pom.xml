@@ -54,7 +54,7 @@
 		</plugins>
 	</build>
 
-	<!-- Mule Dependencies -->
+	<!-- Mule Dependency-->
 	<dependencies>
 		<!-- Xml configuration -->
 		<dependency>
@@ -95,6 +95,7 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		/
 		<dependency>
 			<groupId>org.mule.transports</groupId>
 			<artifactId>mule-transport-vm</artifactId>
